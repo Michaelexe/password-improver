@@ -25,40 +25,55 @@ def encryptPassword(event):
 
 	for i in range(len(password)):
 		if password[i] == 'a' or password[i] == 'A':
-			new_password += '&'
+			new_password += '&Ee'
 
 		elif password[i] == 'e' or password[i] == 'E':
-			new_password += '3'
+			new_password += '3E3'
 
 		elif password[i] == '3':
-			new_password += 'E'
+			new_password += 'ETree'
 
 		elif password[i] == 'i' or password[i] == 'I':
-			new_password += '%'
+			new_password += 'Aie'
 
 		elif password[i] == 'o' or password[i] == 'O':
-			new_password += '0'
+			new_password += '0u'
 
 		elif password[i] == 'x' or password[i] == 'X':
-			new_password += '*'
+			new_password += 'E*'
 
 		elif password[i] == 's' or password[i] == 'S':
-			new_password += '5'
+			new_password += '5eS'
 
 		elif password[i] == 'z' or password[i] == 'Z':
-			new_password += '2'
+			new_password += '2z'
 
 		elif password[i] == 'l' or password[i] == 'L':
-			new_password += '7'
+			new_password += '7El'
 
 		elif password[i] == 'b' or password[i] == 'B':
 			new_password += '8'
 
 		elif password[i] == 'v' or password[i] == 'V':
-			new_password += '^'
+			new_password += '^VE'
 
 		elif password[i] == '5':
 			new_password += '$'
+
+		elif password[i] == '6':
+			new_password += 'Sx'
+
+		elif password[i] == '7':
+			new_password += 'S^n'
+
+		elif password[i] == '8':
+			new_password += 'E6T'
+
+		elif password[i] == '9':
+			new_password += '9e'
+
+		elif password[i] == '4':
+			new_password += '4oR'
 
 		else:
 			new_password += password[i]
